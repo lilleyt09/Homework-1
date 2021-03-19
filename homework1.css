@@ -1,0 +1,236 @@
+/* T */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This sets the background color for the page as white */
+body {
+    background-color: #d9dcd6;
+}
+
+/* This provides spacing around the header, sets the font to the first available member of the family,
+creates a colored background that differs from that of the page, and sets the text color to white */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This allows the elements in h1 to display side-by-side on one line and sets the font size to 48 px */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* This changes the colors of the letters "seo" in the title, which is allowed by defining 
+them under a separate class */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* This defines the top padding and right margin for the div, and addresses the alignment, font style, and 
+font size of the text */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*This removes list markers from the list items */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Prevents line breaks after each element and sets a left margin */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Sets the color and removes text decoration for all elements with anchor tags */ 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sets the font size for all paragraph elements */
+p {
+    font-size: 16px;
+}
+
+/* Defines the dimensions, bottom margin, and background image and format for the "hero" class elements */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Formats the "float-left" class elements */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Formats the "float-right" class elements */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sets the width of the "content" class elements, prevents line breaks after each element, and 
+sets a left margin */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* The next several blocks address the "benefits" class elements, as well as its child class elements.
+-The first block gives all elements a right margin, padding, positions the border below the left
+and right floats, floats elements right, sets the height and width, and defines the font family.
+-The "lead" block sets a bottom margin and text color.
+-The h3 blocks add a bottom margin and aligns text in the center.
+-The img blocks format the display, sets a margin, and defines a max width.
+-The brand block sets a bottom margin and text color.
+-The cost block sets a bottom margin and text color. 
+
+The blocks within the ".search-engine-optimization", ".online-reputation-management", and ".social-media-marketing
+classes serve similar formatting functions as those under the "benefits" class described above.*/ 
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* This defines the padding, border clear, font style and text alignment for the "footer" class elements */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Simply sets the font size for the footer */
+.footer h4 {
+    font-size: 20px;
+}
+
+
+
